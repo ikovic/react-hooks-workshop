@@ -4,6 +4,17 @@ Introduction material for learning React Hooks. Basic rules and use cases.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Topics
+
+We'll go through various use cases to see how we can benefit from using hooks.
+
+### useState
+
+ - replace a class based component
+ - notice the decrease in lines of code
+ - bonus: don't create new functions on every render with `useCallback`
+ - bonus: Rules of Hooks ESLint setup
+
 ## Available Scripts
 
 In the project directory, you can run:
