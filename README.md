@@ -9,25 +9,34 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 We'll go through various use cases to see how we can benefit from using hooks.
 
 ### useState
- - replace a class based component
- - notice the decrease in lines of code
- - bonus: don't create new functions on every render with `useCallback`
- - bonus: Rules of Hooks ESLint setup
+
+- replace a class based component
+- notice the decrease in lines of code
+- bonus: don't create new functions on every render with `useCallback`
+- bonus: Rules of Hooks ESLint setup
 
 ### useEffect
- - compare to lifecycle methods
- - doing async effects
- - clearing up effects (removing listeners and similar)
- - dependency array parameter
+
+- compare to lifecycle methods
+- doing async effects
+- cleaning up on unmount
+- dependency array parameter
 
 ### useReducer
- - controlling multiple state changes
- - when to switch from `useState` to `useReducer`
- - React ensures `dispatch` is the same, what to export?
- - writing middleware
+
+- controlling multiple state changes
+- when to switch from `useState` to `useReducer`
+- React ensures `dispatch` is the same, what to export?
+- writing middleware
 
 ### useContext
- - usage in combination with `useReducer`
+
+- usage in combination with `useReducer`
+- replace selectors with `useMemo`
+
+### useRef
+
+- how to use as a replacement for instance variables
 
 ## Available Scripts
 
