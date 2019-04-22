@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
 
 import UseState from './exercises/UseState';
 import UseEffect from './exercises/UseEffect';
+import UseRef from './exercises/UseRef';
 
 import logo from './logo.svg';
 import './App.css';
@@ -34,12 +35,16 @@ const App = () => (
           <li>
             <Link to="/use-effect">useEffect</Link>
           </li>
+          <li>
+            <Link to="/use-ref">useRef</Link>
+          </li>
         </ul>
       </nav>
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/use-state" component={UseState} />
         <Route path="/use-effect" component={UseEffect} />
+        <Route path="/use-ref" component={UseRef} />
       </Switch>
     </div>
   </Router>

@@ -37,6 +37,7 @@ We'll go through various use cases to see how we can benefit from using hooks.
 ### useRef
 
 - how to use as a replacement for instance variables
+- we can use closures too but that adds complexity
 
 ## Available Scripts
 
